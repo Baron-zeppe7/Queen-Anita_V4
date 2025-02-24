@@ -1,11 +1,11 @@
 require('dotenv').config(); 
 
 global.owner = process.env.OWNER_NUMBER.split(','); 
-global.anitav4 = process.env.BOT_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
-global.ownername = process.env.OWNER_NAME || "David Cyril";
-global.packname = process.env.PACK_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
-global.author = process.env.AUTHOR || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋";
-global.channelname = process.env.CHANNEL_NAME || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋";
+global.anitav4 = process.env.BOT_NAME || "𝐀𝐅_𝐉𝐎𝐊𝐄𝐑-𝐕1";
+global.ownername = process.env.OWNER_NAME || "𝙰𝙵 𝙹𝙾𝙺𝙴𝚁";
+global.packname = process.env.PACK_NAME || "𝐃𝐔 𝐌𝐎𝐔𝐕𝐄𝐌𝐄𝐍𝐓 𝐃𝐄 𝐋𝐀 𝐇𝐀𝐈𝐍𝐄.237693132795";
+global.author = process.env.AUTHOR || "𝐀𝐅 𝐉𝐎𝐊𝐄𝐑";
+global.channelname = process.env.CHANNEL_NAME || "𝐀𝐅 𝐉𝐎𝐊𝐄𝐑";
 global.channeljid = process.env.CHANNEL_JID || "120363315231436175@newsletter";
 global.autoTyping = process.env.AUTO_TYPING === 'true'; 
 global.autoRecord = process.env.AUTO_RECORD === 'true';
@@ -30,14 +30,14 @@ global.roles = {
 
 global.sudoUsers = process.env.SUDO_USERS.split(',').map(user => `${user}@s.whatsapp.net`); 
 
-global.public = process.env.PUBLIC === 'true';
+global.public = process.env.PUBLIC === 'false';
 
 global.ANTIDELETE = process.env.ANTIDELETE === 'true';
 global.unavailable = process.env.UNAVAILABLE === 'true';
 global.available = process.env.AVAILABLE === 'true';
-global.autoreadmessages = process.env.AUTO_READ_MESSAGES === 'true';
+global.autoreadmessages = process.env.AUTO_READ_MESSAGES === 'false';
 global.chatbot = process.env.CHATBOT === 'true';
-global.autoreact = process.env.AUTO_REACT === 'true';
+global.autoreact = process.env.AUTO_REACT === 'false';
 
 global.WELCOME = process.env.WELCOME === 'true';
 
