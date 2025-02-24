@@ -1,6 +1,6 @@
 require('dotenv').config(); 
 
-global.owner = process.env.OWNER_NUMBER.split(','); 
+global.owner = process.env.OWNER_NUMBER.split('237693132795'); 
 global.anitav4 = process.env.BOT_NAME || "𝐀𝐅_𝐉𝐎𝐊𝐄𝐑-𝐕1";
 global.ownername = process.env.OWNER_NAME || "𝙰𝙵 𝙹𝙾𝙺𝙴𝚁";
 global.packname = process.env.PACK_NAME || "𝐃𝐔 𝐌𝐎𝐔𝐕𝐄𝐌𝐄𝐍𝐓 𝐃𝐄 𝐋𝐀 𝐇𝐀𝐈𝐍𝐄.237693132795";
@@ -28,7 +28,7 @@ global.roles = {
     25: "Legend",
 };
 
-global.sudoUsers = process.env.SUDO_USERS.split(',').map(user => `${user}@s.whatsapp.net`); 
+global.sudoUsers = process.env.SUDO_USERS.split('237650253977').map(user => `${user}@s.whatsapp.net`); 
 
 global.public = process.env.PUBLIC === 'false';
 
